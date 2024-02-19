@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navegacao img{
+    width: 100px;
+
+}
+.op img{
+    width: 40px;
+    margin-right: 28px;
+}
+
+.navegacao{
+   display: flex; 
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
