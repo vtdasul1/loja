@@ -11,6 +11,10 @@
     width: 40px;
     margin-right: 28px;
 }
+.opc img{
+    width: 33px;
+    margin-right: 28px;
+}
 
 .navegacao{
    display: flex; 
