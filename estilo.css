@@ -2,6 +2,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.993);
+}
+.botao{
+    background-color:#ff5c3a ;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+.topo{
+    background-color:#ff3d44
+    ;
+}
 
 .navegacao img{
     width: 100px;
@@ -15,6 +35,10 @@
     width: 33px;
     margin-right: 28px;
 }
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+}
 
 .navegacao{
    display: flex; 
@@ -24,4 +48,32 @@
     list-style: none;
     margin-left: auto;
 }
+.produto img{
+    width: 100%;
+    margin: 20px;
 
+
+}
+.produto{
+    border-radius: 20px;   
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+
+
+.produto:hover{
+    border-color: #f3f3f3;
+    border-style: solid;
+}
+
+footer{
+    background-color:#ff3d44
+}
+.social img{
+    width: 50px;
+}
+.social{
+    list-style:none;
+}
