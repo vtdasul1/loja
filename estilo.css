@@ -19,9 +19,12 @@ body{
 
 }
 .topo{
-    background-color:#ff3d44
-    ;
+    background-color:#ff3d44;
 }
+.titulo{
+    text-align: center;
+}
+
 
 .navegacao img{
     width: 100px;
@@ -35,9 +38,10 @@ body{
     width: 33px;
     margin-right: 28px;
 }
-.grade{
+.grid-conteiner{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+    margin: 30px;
 }
 
 .navegacao{
@@ -48,8 +52,11 @@ body{
     list-style: none;
     margin-left: auto;
 }
+.menu a:hover{
+    margin-bottom: 10px;
+}
 .produto img{
-    width: 100%;
+    width: 80%;
     margin: 20px;
 
 
