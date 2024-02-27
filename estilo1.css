@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.botao{
+    background-color:#ff5c3a ;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.993);
+}
+.topo{
+    background-color:#ff3d44;
+}
+.titulo{
+    text-align: center;
+}
+.navegacao img{
+    width: 100px;
+
+}
+.op img{
+    width: 40px;
+    margin-right: 28px;
+}
+.opc img{
+    width: 33px;
+    margin-right: 28px;
+}
+.grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+    margin: 30px;
+}
+.descricao{
+
+    margin: 30px;
+    display: block;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video{
+    margin: auto;
+}
+.airpod{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navegacao{
+   display: flex; 
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+.menu a:hover{
+    margin-bottom: 10px;
+}
+.produto img{
+    width: 100%;
+    margin: 20px;
+
+
+}
+.produto{
+    
+    width: 320px;
+}
+
+.corte{
+    margin: 20px;
+    width: 30px;
+    font-size: 13px;
+    color: #948f90ef;
+}
+
+.cartao{
+    font-size: 14px;
+    color:#948f90ef; 
+
+}
+.produto:hover{
+    border-color: #f3f3f3;
+    border-style: solid;
+}
+
+footer{
+    background-color:#ff3d44
+}
+.social img{
+    width: 50px;
+}
+.social{
+    list-style:none;
+}

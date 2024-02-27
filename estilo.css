@@ -69,7 +69,18 @@ body{
     width: 320px;
 }
 
+.corte{
+    margin: 20px;
+    width: 30px;
+    font-size: 13px;
+    color: #948f90ef;
+}
 
+.cartao{
+    font-size: 14px;
+    color:#948f90ef; 
+
+}
 .produto:hover{
     border-color: #f3f3f3;
     border-style: solid;
