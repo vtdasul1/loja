@@ -9,6 +9,7 @@
     margin: 15px;
     padding: 10px;
     border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -21,6 +22,12 @@ body{
 }
 .titulo{
     text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.texto{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
 }
 .navegacao img{
     width: 100px;
@@ -41,19 +48,17 @@ body{
 }
 .descricao{
 
-    margin: 30px;
+    margin: 100px;
     display: block;
     margin-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
 }
 .video{
-    margin: auto;
+    margin: 200px;
 }
-.airpod{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.valor{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .navegacao{
    display: flex; 
@@ -67,13 +72,14 @@ body{
     margin-bottom: 10px;
 }
 .produto img{
-    width: 100%;
+    width: 80%;
     margin: 20px;
 
 
 }
 .produto{
-    
+    border-radius: 20px;   
+    text-align: center;
     width: 320px;
 }
 
@@ -87,7 +93,7 @@ body{
 .cartao{
     font-size: 14px;
     color:#948f90ef; 
-
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
 }
 .produto:hover{
     border-color: #f3f3f3;

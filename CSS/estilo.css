@@ -23,6 +23,7 @@ body{
 }
 .titulo{
     text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 
@@ -79,6 +80,8 @@ body{
 .cartao{
     font-size: 14px;
     color:#948f90ef; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
 
 }
 .produto:hover{
@@ -88,6 +91,11 @@ body{
 
 footer{
     background-color:#ff3d44
+}
+.texto{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
 }
 .social img{
     width: 50px;
