@@ -18,6 +18,14 @@ body{
     
 
 }
+.contato{
+    
+    width: 276px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+}
+
 .topo{
     background-color:#ff3d44;
 }
@@ -25,7 +33,11 @@ body{
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
-
+.carrinho{
+    margin: 40px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+}
 
 .navegacao img{
     width: 100px;
