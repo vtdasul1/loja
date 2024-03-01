@@ -25,13 +25,20 @@ body{
     margin-left: auto;
     padding: 40px;
 }
-
+.destaque{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 .topo{
     background-color:#ff3d44;
 }
 .titulo{
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.titulo a{
+    text-decoration: none;
+    color: black;
 }
 .carrinho{
     margin: 40px;
@@ -108,6 +115,19 @@ footer{
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 
+}
+.contato{
+    background-color: #ff3d43d0;
+    width: 500px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.campo{
+    display: block;
+    width: 100%;
 }
 .social img{
     width: 50px;
